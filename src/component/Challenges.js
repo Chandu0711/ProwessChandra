@@ -1,6 +1,6 @@
 import Card1 from './Card';
-import './CSS/challanges.css';
-function Challanges() {
+import './CSS/challenges.css';
+function Challenges() {
     const cardInfo = [
         {
             prg: "Server Addition!",
@@ -34,7 +34,7 @@ function Challanges() {
 return (
     <div class="cha-ultimate">
         <div className="class">
-            <h1 className="challange">Challanges</h1>
+            <h1 className="challange">Challenges</h1>
         </div>
         <div>
             <h4 class="font"> Programming</h4>
@@ -58,4 +58,4 @@ return (
 
 );
 }
-export default Challanges;
+export default Challenges;
